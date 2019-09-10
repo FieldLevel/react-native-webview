@@ -55,6 +55,8 @@
 - (void)injectJavaScript:(NSString *)script;
 - (void)goForward;
 - (void)goBack;
+- (BOOL)canGoBack;
+- (BOOL)canGoForward;
 - (void)reload;
 - (void)stopLoading;
 

@@ -838,6 +838,16 @@ static NSURLCredential* clientAuthenticationCredential;
   [_webView goBack];
 }
 
+- (BOOL)canGoBack
+{
+  return [_webView canGoBack];
+}
+
+- (BOOL)canGoForward
+{
+  return [_webView canGoForward];
+}
+
 - (void)reload
 {
   /**

@@ -21,6 +21,14 @@ declare class WebView extends React.Component<IOSWebViewProps, State> {
      */
     goBack: () => void;
     /**
+     * Indicating whether there is a back item in the back-forward list that can be navigated to
+     */
+    canGoBack: () => any;
+    /**
+     * Indicating whether there is a forward item in the back-forward list that can be navigated to
+     */
+    canGoForward: () => any;
+    /**
      * Reloads the current page.
      */
     reload: () => void;

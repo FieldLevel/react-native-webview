@@ -187,6 +187,8 @@ export type WebViewSource = WebViewSourceUri | WebViewSourceHtml;
 
 export interface ViewManager {
   startLoadWithResult: Function;
+  canGoBack: Function;
+  canGoForward: Function;
 }
 
 export interface WebViewNativeConfig {
